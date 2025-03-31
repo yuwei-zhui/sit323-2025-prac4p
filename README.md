@@ -1,6 +1,6 @@
 # SIT323 4.1P - Building a Simple Calculator Microservice
 
-This project is part of the SIT323/SIT737 Cloud Native Application Development course. It implements a simple calculator microservice using Node.js and Express, which supports basic arithmetic operations and includes proper error handling.
+This project is part of the SIT323/SIT737 Cloud Native Application Development course. I implemented a simple calculator microservice using Node.js and Express, which supports basic arithmetic operations and includes proper error handling.
 
 ## Repository
 
@@ -61,11 +61,11 @@ app.get('/add', (req, res) => {
   node index.js
   ```
 - Use Postman to test each API endpoint:
-  - **Addition:** `http://localhost:3000/add?num1=10&num2=5`
-  - **Subtraction:** `http://localhost:3000/subtract?num1=10&num2=5`
-  - **Multiplication:** `http://localhost:3000/multiply?num1=10&num2=5`
-  - **Division:** `http://localhost:3000/divide?num1=10&num2=5`
-- Also test error handling (e.g., invalid numbers, or division by 0).
+  - **Addition:** `http://localhost:3323/add?num1=10&num2=5`
+  - **Subtraction:** `http://localhost:3323/subtract?num1=10&num2=5`
+  - **Multiplication:** `http://localhost:3323/multiply?num1=10&num2=5`
+  - **Division:** `http://localhost:3323/divide?num1=10&num2=5`
+- Also test error handling (invalid numbers like 'a', or division by 0).
 
 ### Step 5: Commit and Upload Code
 - Commit your changes:
