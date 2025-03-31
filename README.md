@@ -2,12 +2,12 @@
 
 This project is part of the SIT323/SIT737 Cloud Native Application Development course. I implemented a simple calculator microservice using Node.js and Express, which supports basic arithmetic operations and includes proper error handling.
 
-## Repository
+## 📂 Repository
 
 The code is hosted on GitHub:  
 [https://github.com/yuwei-zhui/sit323-2025-prac4p](https://github.com/yuwei-zhui/sit323-2025-prac4p)
 
-## Project Setup
+## 🛠️ Project Setup
 
 ### Step 1: Initialize Repository and Project
 - Create and initialize the GitHub repository.
@@ -78,7 +78,7 @@ app.get('/add', (req, res) => {
   git push origin main
   ```
 
-## Usage
+## 💻 Usage
 
 1. **Start the Server:**  
    Run `node index.js` to start the microservice.
@@ -86,6 +86,6 @@ app.get('/add', (req, res) => {
 2. **Test the API:**  
    Use your web browser or Postman to interact with the API endpoints as described above.
 
-## Conclusion
+## 📕 Conclusion
 
 This microservice demonstrates the basic principles of cloud native development by implementing a modular, RESTful API for arithmetic operations. The project follows best practices with error handling and clear separation of functionality.  
