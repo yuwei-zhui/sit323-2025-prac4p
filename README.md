@@ -1,6 +1,6 @@
 # SIT323 4.1P - Building a Simple Calculator Microservice
 
-This project is part of the SIT323/SIT737 Cloud Native Application Development course. I implemented a simple calculator microservice using Node.js and Express, which supports basic arithmetic operations and includes proper error handling.
+This project is part of the SIT323 Cloud Native Application Development course. I implemented a simple calculator microservice using Node.js and Express, which supports basic arithmetic operations and includes proper error handling.
 
 ## 📂 Repository
 
